@@ -1,0 +1,42 @@
+.box {
+  height: 500px;
+  width: 500px;
+  background-color: yellow;
+  rotate: 90deg;
+}
+
+.triangle {
+  position: static;
+}
+.box1{
+  height: 200px;
+  width: 500px;
+  background-color: rgba(255, 0, 0, 0.432)
+}
+.hea{
+  padding-top: 10px;
+  padding-bottom: 300px;
+  padding-left: 75px;
+  rotate: 270deg;
+  color: aliceblue;
+}
+
+
+.triangle::before {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: yellow;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 30%;
+  right: -100px;
+  margin-top: 5px;
+}
+.ima{
+  position:inheri;
+  padding-left: 200px;
+  inline-size: 100px;
+  padding-bottom: 200px;
+}
+
